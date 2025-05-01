@@ -1,0 +1,19 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore IDE specific files (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore requirements.txt (if you don't want to push it)
+# requirements.txt
